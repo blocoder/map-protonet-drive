@@ -3,7 +3,7 @@ Option Explicit
 Dim strDriveLetter
 
 ' Hier alle Angaben machen
-strDriveLetter = "P:" ' P wie Protonet :-)
+strDriveLetter = "P:" ' Zum Beispiel P wie Protonet, inklusive Doppelpunkt
 
 ' Ab hier nichts mehr ändern
 
