@@ -3,7 +3,7 @@ Option Explicit
 Dim strDriveLetter, strIP, strURL, strUsr, strPas
 
 ' Hier alle Angaben machen
-strDriveLetter = "P:" ' P wie Protonet :-)
+strDriveLetter = "P:" ' Zum Beispiel P wie Protonet, inklusive Doppelpunkt
 strIP = "192.168.xxx.xxx" ' IP-Adresse der Protonet-Box im LAN
 strURL = "box.host.tld" ' Web-Adresse der Protonet-Box (ohne Protokoll https://)
 strUsr = "benutzer.name" ' Benutzername (nicht die E-Mail-Adresse!) wie in Einstellungen / Mein Profil angegeben
