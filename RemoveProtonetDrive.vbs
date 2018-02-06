@@ -2,10 +2,12 @@ Option Explicit
 
 Dim strDriveLetter
 
+' Dieses Script entfernt unter Windows das Netz-Laufwerk wieder
 ' Hier alle Angaben machen
 strDriveLetter = "P:" ' Zum Beispiel P wie Protonet, inklusive Doppelpunkt
 
-' Ab hier nichts mehr ändern
+' Ab hier bitte nichts mehr ändern
+' ================================
 
 RemoveDrive strDriveLetter
 
