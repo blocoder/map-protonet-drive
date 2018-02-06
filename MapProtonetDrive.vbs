@@ -2,6 +2,7 @@ Option Explicit
 
 Dim strDriveLetter, strIP, strURL, strUsr, strPas
 
+' Dieses Script bindet einen Protonet-Server unter Windows als Netz-Laufwerk ein.
 ' Hier alle Angaben machen
 strDriveLetter = "P:" ' Zum Beispiel P wie Protonet, inklusive Doppelpunkt
 strIP = "192.168.xxx.xxx" ' IP-Adresse der Protonet-Box im LAN
@@ -9,7 +10,8 @@ strURL = "box.host.tld" ' Web-Adresse der Protonet-Box (ohne Protokoll https://)
 strUsr = "benutzer.name" ' Benutzername (nicht die E-Mail-Adresse!) wie in Einstellungen / Mein Profil angegeben
 strPas = "passwort" ' Das Passwort
 
-' Ab hier nichts mehr ändern
+' Ab hier bitte nichts mehr ändern
+' ================================
 
 ' Wenn die Protonet-Box über LAN erreichbar ist, dann über LAN verbinden. Andernfalls über WebDav.
 if Ping(strIP) = True then
