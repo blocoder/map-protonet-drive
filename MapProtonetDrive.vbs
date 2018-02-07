@@ -16,7 +16,6 @@ strPas = "passwort" ' Das Passwort
 ' Wenn die Protonet-Box über LAN erreichbar ist, dann über Samba verbinden. Andernfalls über WebDav.
 if Ping(strIP) = True then
 	MapDrive strDriveLetter, "\\" + strIP + "\" + strUsr + "\Groups", FALSE, strUsr, strPas
-	 
 Else
 	if Ping(strURL) = True then
 		MapDrive strDriveLetter, "\\" + strURL + "@SSL\DavWWWRoot\dav\Protonet\Groups", FALSE, strUsr, strPas
